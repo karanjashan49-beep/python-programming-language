@@ -77,7 +77,7 @@ This repository also contains notes and examples from my Python learning journey
 
 - [Class 01: Introduction to Python](classes/class-01-introduction/notes.md)
 - [Class 02: Strings and Text](classes/class-02-strings/notes.md)
-- [Variables and String Functions](classes/class-02-strings/variables-and-string-functions.md)
+- [Class 03: Variables and String Functions](classes/class-03-variables-and-string-functions/notes.md)
 
 ## How to Run Python
 
