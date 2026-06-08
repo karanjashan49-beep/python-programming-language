@@ -165,6 +165,64 @@ Output:
 2
 ```
 
+You can also count a single letter.
+
+```python
+word = "programming"
+print(word.count("m"))
+```
+
+Output:
+
+```text
+2
+```
+
+## Counting Commands
+
+Counting commands help you count letters, words, or characters in a string.
+
+## Count a Word
+
+```python
+sentence = "Python is easy and Python is powerful"
+print(sentence.count("Python"))
+```
+
+Output:
+
+```text
+2
+```
+
+## Count a Letter
+
+```python
+word = "banana"
+print(word.count("a"))
+```
+
+Output:
+
+```text
+3
+```
+
+## Count Total Characters
+
+Use `len()` to count total characters, including spaces.
+
+```python
+message = "Hello Python"
+print(len(message))
+```
+
+Output:
+
+```text
+12
+```
+
 ## replace()
 
 Replaces one word with another word.
@@ -221,6 +279,86 @@ Output:
 5
 ```
 
+## String Slicing
+
+Slicing is used to get a specific part of a string.
+
+Index numbers start from `0`.
+
+```python
+language = "Python"
+
+print(language[0])
+print(language[1])
+print(language[2])
+```
+
+Output:
+
+```text
+P
+y
+t
+```
+
+## Basic Slicing
+
+```python
+language = "Python"
+print(language[0:3])
+```
+
+Output:
+
+```text
+Pyt
+```
+
+`0:3` means start from index `0` and stop before index `3`.
+
+## Slice From Start
+
+```python
+language = "Python"
+print(language[:4])
+```
+
+Output:
+
+```text
+Pyth
+```
+
+## Slice To End
+
+```python
+language = "Python"
+print(language[2:])
+```
+
+Output:
+
+```text
+thon
+```
+
+## Negative Slicing
+
+Negative indexes count from the end of the string.
+
+```python
+language = "Python"
+print(language[-1])
+print(language[-3:])
+```
+
+Output:
+
+```text
+n
+hon
+```
+
 ## Complete Practice Example
 
 ```python
@@ -232,6 +370,10 @@ print(paragraph)
 print(paragraph.count("car"))
 print(paragraph.replace("My", "Our"))
 print(paragraph.upper())
+
+language = "Python"
+print(language[0:3])
+print(language[-1])
 ```
 
 ## Practice Questions
@@ -241,3 +383,6 @@ print(paragraph.upper())
 3. Count how many times the word `"Python"` appears in a sentence.
 4. Replace `"Java"` with `"Python"` in a sentence.
 5. Remove extra spaces from `"   Hello Python   "`.
+6. Count how many times the letter `"a"` appears in `"banana"`.
+7. Print the first 3 letters of `"Python"`.
+8. Print the last letter of `"Python"`.
