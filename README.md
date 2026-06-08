@@ -71,6 +71,14 @@ print(greet("Karan"))
 - Desktop applications
 - API development
 
+## My Python Classes
+
+This repository also contains notes and examples from my Python learning journey.
+
+- [Class 01: Introduction to Python](classes/class-01-introduction/notes.md)
+- [Class 02: Strings and Text](classes/class-02-strings/notes.md)
+- [Class 03: Input and Conditions](classes/class-03-conditions/notes.md)
+
 ## How to Run Python
 
 1. Install Python from https://www.python.org/
