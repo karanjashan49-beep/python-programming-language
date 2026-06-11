@@ -1,4 +1,3 @@
-```
 name="karan"
 id="karanjashan"
 print("your name is" ,name, "and email id is" , id)
@@ -16,4 +15,16 @@ name=(input("Enter your full name :"))
 course=(input("Enter your course name :"))
 city=(input("city name :"))
 print(f"Student {name} is enrolled in {course} and lives in {city}")
-```
+n="Rahul Sharma"
+print(n.center(40,"*"))
+p=("python Programming")
+print(p.split()) 
+words=["Learn", "Code", "Grow"]
+print(" | ".join(words)) 
+name = "Rahul Sharma"
+print("First Character :", name[0])
+print("Last Character  :", name[-1])
+print("First 5 Chars   :", name[:5])
+print("Middle Part     :", name[1:-1])
+a=("characters")
+print(a.count("a"))
