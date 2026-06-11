@@ -1,3 +1,4 @@
+```
 name="karan"
 id="karanjashan"
 print("your name is" ,name, "and email id is" , id)
@@ -28,3 +29,4 @@ print("First 5 Chars   :", name[:5])
 print("Middle Part     :", name[1:-1])
 a=("characters")
 print(a.count("a"))
+```
