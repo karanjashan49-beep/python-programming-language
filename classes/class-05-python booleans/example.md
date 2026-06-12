@@ -1,3 +1,4 @@
+```
 #Python boolians 
 print(10>5)
 print(10==8)
@@ -46,5 +47,5 @@ print(n:=n>>2)
 print(type(n))
 l=(7)
 print(l:=l>>1)
-
+```
 
