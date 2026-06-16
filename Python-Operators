@@ -1,0 +1,46 @@
+# Comparision Operator
+x=10
+y=10
+print(x<=y) #lessthan or equal to
+print(x!=y) #not equal
+print(x==y) #equal
+print(x>y) #greaterthan
+print(x<y) #greaterthan
+print(x>=y) #greaterthan or equal to
+
+#Logical Operator
+p=7
+r=4
+print(p>6 and r<5)
+print(p==7 or r>5)
+print(p!=7 and not (r==4))
+
+#Indentity operators
+t=("one","two","three")
+d=("one","two","three")
+print(t is d) 
+print(t is not d)
+
+#Membership operators
+print("one" in t)
+print("four" in t)
+
+#Bitwise Operators
+v=(8)
+f=(5)
+print(v&f) #if both both bits are same
+print(v|f) #if only one bit is 1
+print(v^f) #when different bits (then answer is 1)
+print(~v) #just increase one number with minus sign
+print(v<<f) #multiply by 2
+print(v>>f) #divided by 2 (for positive numbers)
+h=(7)
+s=(5)
+print(h<<5)
+w=5
+c=3
+print(w|c)
+j=6
+i=4
+print(j^i)
+print(~3)
