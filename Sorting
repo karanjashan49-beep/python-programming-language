@@ -1,0 +1,91 @@
+#Sorting
+
+list1=["orange","mango","Kiwi","pineapple","Banana"]
+list1.sort()
+print(list1)
+
+list1.sort(reverse=True)
+print(list1)
+
+list2=[67,98,56,34]
+list2.sort()
+print(list2)
+
+list2.sort(reverse=True)
+print(list2)
+list1.sort(key=len)
+print(list1)
+list1.sort(key=str.lower)
+print(list1)
+
+#Copy
+l1=["orange","mango","Kiwi","pineapple","Banana"]
+l2=l1.copy()
+print(l2)
+
+#Join
+l1=["orange","mango","grape","pineapple","pear"]
+f1=["lion","cat","tiger","snake","dog"]
+l3=l1+f1
+print(l3)
+
+#For Loop
+
+list=["a","b","c"]
+for x in list:
+  print(x)
+
+list1=["m","n","o"]
+for i in range(len(list1)):
+  print(list1[i])
+
+#While loop
+list4=["king","queen","prince"]
+i=0
+while i<len(list4):
+  print(list4[i])
+  i=i+1
+
+#Join two lists using append
+list5=["a","b","c"]
+list6=["d","e","f"]
+for x in list6:
+  list5.append(x)
+print(list5)
+
+#extend
+list7=["a","b","c"]
+list8=["d","e","f"]
+list7.extend(list8)
+print(list7)
+
+#sum,max,min
+list9=[1,2,3,4,5]
+print(sum(list9))
+print(max(list9))
+print(min(list9))
+
+
+['Banana', 'Kiwi', 'mango', 'orange', 'pineapple']
+['pineapple', 'orange', 'mango', 'Kiwi', 'Banana']
+[34, 56, 67, 98]
+[98, 67, 56, 34]
+['Kiwi', 'mango', 'orange', 'Banana', 'pineapple']
+['Banana', 'Kiwi', 'mango', 'orange', 'pineapple']
+['orange', 'mango', 'Kiwi', 'pineapple', 'Banana']
+['orange', 'mango', 'grape', 'pineapple', 'pear', 'lion', 'cat', 'tiger', 'snake', 'dog']
+a
+b
+c
+m
+n
+o
+king
+queen
+prince
+['a', 'b', 'c', 'd', 'e', 'f']
+['a', 'b', 'c', 'd', 'e', 'f']
+15
+5
+1
+
