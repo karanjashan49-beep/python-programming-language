@@ -1,0 +1,89 @@
+
+name=input("Student Name :")
+course=input("Course Name :")
+Fee=input("Course Fee :")
+Amount=input("Amount Paid :")
+
+#step 2 Operators
+Total=10000
+paid=5000
+remaining = Total - paid
+print(remaining)
+percentage = (paid / Total) * 100
+print(percentage)
+
+#step 3 Create a list
+subjects = []
+
+# Ask user to enter 5 subject names
+for i in range(5):
+    subject = input("Enter subject name: ")
+    subjects.append(subject)
+
+# Display the list
+print("Subjects list:", subjects)
+print("First Subject:", subjects[0])
+print("Last Subject:", subjects[-1])
+
+#List Methods
+subjects.append("python")
+print(subjects)
+subjects.insert (1,"AI")
+print(subjects)
+subjects.remove("python")
+print(subjects)
+del subjects[2]
+print(subjects)
+subjects.clear()
+print(subjects)
+print("Linux" in subjects)
+print("Linux" not in subjects)
+
+print("FINAL REPORT")
+Name=input("Student Name :")
+Course=input("Course Name :")
+Fee=input("Course Fee :")
+Amount=input("Amount Paid :")
+remaining = Total - paid
+print(remaining)
+percentage = (paid / Total) * 100
+print(percentage)
+#Bonus
+Marks=[85,90,78,92,88]
+print(sorted(Marks))
+print(sorted(Marks,reverse=True))
+print(sum(Marks))
+
+
+
+Student Name :Karan
+Course Name :Python Programming
+Course Fee :10,000
+Amount Paid :5,000
+5000
+50.0
+Enter subject name: Linux
+Enter subject name: Aws
+Enter subject name: Docker
+Enter subject name: git
+Enter subject name: Ansible
+Subjects list: ['Linux', 'Aws', 'Docker', 'git', 'Ansible']
+First Subject: Linux
+Last Subject: Ansible
+['Linux', 'Aws', 'Docker', 'git', 'Ansible', 'python']
+['Linux', 'AI', 'Aws', 'Docker', 'git', 'Ansible', 'python']
+['Linux', 'AI', 'Aws', 'Docker', 'git', 'Ansible']
+['Linux', 'AI', 'Docker', 'git', 'Ansible']
+[]
+False
+True
+FINAL REPORT
+Student Name :Karan
+Course Name :Python Programming
+Course Fee :10000.0
+Amount Paid :5000.0
+5000
+50.0
+[78, 85, 88, 90, 92]
+[92, 90, 88, 85, 78]
+433
