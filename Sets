@@ -1,0 +1,85 @@
+set1={"apple","Banana","Mango","apple",1,True,False,0}
+print(set1)
+print(type(set1))
+print(len(set1))
+
+#Access set iteams
+for x in set1:
+  print(x)
+
+#Add set iteams
+set1.add("kiwi")
+print(set1)
+
+#update iteams
+set2=(33,34)
+set1.update(set2)
+print(set1)
+
+#remove iteams
+set1.remove("apple")
+print(set1)
+set1.discard("kiwi")
+print(set1)
+set1.pop()
+print(set1)
+set1.clear()
+print(set1)
+del set1
+
+#join
+set1={"apple","Banana","Mango","apple",1,True,False,0}
+set2=(33,34)
+set3=set1.union(set2)
+print(set3)
+# Convert set2 to a set before using the | operator
+set3 = set1 | set(set2)
+print(set3)
+set1.update(set2)
+print(set1)
+
+#Intersection
+set1={"apple","Banana","Mango","apple",1,True,False,0} 
+set2={33,34} 
+set3=set1.intersection(set2)
+print(set3)
+set3=set1.difference(set2)
+print(set3)
+set1.difference_update(set2)
+print(set1)
+set3=set1.symmetric_difference(set2)
+print(set3)
+set1.symmetric_difference_update(set2)
+print(set1)
+#Frozen set
+x=frozenset({"apple","banana"})
+print(x)
+print(type(x))
+print(len(x))
+
+
+{False, 1, 'Mango', 'apple', 'Banana'}
+<class 'set'>
+5
+False
+1
+Mango
+apple
+Banana
+{False, 1, 'Mango', 'apple', 'Banana', 'kiwi'}
+{False, 1, 33, 'Mango', 34, 'apple', 'Banana', 'kiwi'}
+{False, 1, 33, 'Mango', 34, 'Banana', 'kiwi'}
+{False, 1, 33, 'Mango', 34, 'Banana'}
+{1, 33, 'Mango', 34, 'Banana'}
+set()
+{False, 1, 33, 'Mango', 34, 'apple', 'Banana'}
+{False, 1, 33, 'Mango', 34, 'apple', 'Banana'}
+{False, 1, 33, 'Mango', 34, 'apple', 'Banana'}
+set()
+{False, 1, 'Mango', 'Banana', 'apple'}
+{False, 1, 'Mango', 'apple', 'Banana'}
+{False, 33, 34, 'Mango', 1, 'Banana', 'apple'}
+{False, 1, 33, 'Mango', 34, 'apple', 'Banana'}
+frozenset({'apple', 'banana'})
+<class 'frozenset'>
+2
