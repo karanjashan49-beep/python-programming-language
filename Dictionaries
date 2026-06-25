@@ -1,0 +1,75 @@
+#Dictionary
+dic1= {
+    "brand": "Ford",
+    "Model": "Mustang",
+    "year": 1964,
+    "year": 2003
+}
+print(dic1)
+print(len(dic1))
+print(dic1["brand"])
+print(dic1["year"])
+
+dic2={
+    "brand": "Ford",
+    "Model": "Mustang",
+    "year": 1964,
+    "color": ["red", "white", "blue"]
+}
+print(dic2)
+print(dic2["color"])
+
+#Access iteams
+dic1={
+    "brand": "Ford",
+    "Model": "Mustang",
+    "year": 1964,
+    "year": 2003
+}
+x=dic1.keys()
+print(x)
+y=dic1.values()
+print(y)
+z=dic1.items()
+print(z)
+
+OUTPUT
+{'brand': 'Ford', 'Model': 'Mustang', 'year': 2003}
+3
+Ford
+2003
+{'brand': 'Ford', 'Model': 'Mustang', 'year': 1964, 'color': ['red', 'white', 'blue']}
+['red', 'white', 'blue']
+dict_keys(['brand', 'Model', 'year'])
+dict_values(['Ford', 'Mustang', 2003])
+dict_items([('brand', 'Ford'), ('Model', 'Mustang'), ('year', 2003)])
+
+UPDATE OR CHANGE ITEAMS
+#update or change iteams
+dic1={
+    "brand": "Ford",
+    "Model": "Mustang",
+    "year": 1964,
+    "year": 2003
+}
+dic1["year"]=2018
+print(dic1)
+
+OUTPUT
+{'brand': 'Ford', 'Model': 'Mustang', 'year': 2018}
+
+#USING OUTPUT
+dic1={
+    "brand": "Ford",
+    "Model": "Mustang",
+    "year": 1964,
+    "year": 2003
+}
+dic1.update({"year": 2020})
+print(dic1)
+dic1.update({"color": "red"})
+print(dic1)
+
+OUTPUT
+{'brand': 'Ford', 'Model': 'Mustang', 'year': 2020}
+{'brand': 'Ford', 'Model': 'Mustang', 'year': 2020, 'color': 'red'}
