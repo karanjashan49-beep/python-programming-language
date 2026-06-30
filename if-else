@@ -1,0 +1,87 @@
+#if else
+a=31
+b=33
+if a>b:
+  print("a is greater than b")
+elif a==b:
+  print("a and b are equal")
+else:
+  print("b is greater than a")
+#shorthand if
+a=35
+b=37
+print("a is greater than b") if a>b else print("b is greater than a")
+#Logical Operator
+a=300
+b=33
+c=40
+if a>b and a>c:
+  print("True")
+else:
+    print("False")
+
+#nested if
+per=80
+score=70
+if(per>70):
+  if(score>90):
+    print("Excellent")
+  else:
+    print("Good")
+else:
+  print("Average")
+
+#pass statement
+a=33
+b=200
+if b>a:
+  pass
+
+#match statement
+day=5
+match day:
+  case 1:
+    print("Monday")
+  case 2:
+    print("Tuesday")
+  case 3:
+    print("Wednesday")
+  case 4:
+    print("Thursday")
+  case 5:
+    print("Friday")
+  case 6:
+    print("Saturday")
+  case 7:
+    print("Sunday")
+  case _:
+    print("Invalid")
+
+#Combine values
+day=8
+match day:
+  case 1|2|3|4|5:
+    print("Weekday")
+  case 6|7:
+    print("Weekend")
+  case _:
+    print("Invalid")
+
+#match with if
+month=6
+day=4
+match day:
+  case 1|2|3|4|5 if month==6:
+      print("january")
+  case _:
+    print("Invalid")
+
+#OUTPUT
+b is greater than a
+b is greater than a
+True
+Good
+Friday
+Invalid
+january
+
