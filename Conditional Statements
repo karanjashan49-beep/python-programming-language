@@ -1,0 +1,104 @@
+n=eval(input("Enter a number:"))
+if n>0:
+  print("Positive")
+elif n<0:
+  print("Negative")
+else:
+  print("Zero")
+print("""     ##To give space between lines
+""")
+n1=eval(input("Enter students marks:"))
+if n1>=90 and n1<=100:
+  print("A")
+elif n1>=80 and n1<=89:
+  print("B")
+elif n1>=70 and n1<=79:
+  print("C")
+elif n1>=60 and n1<=69:
+  print("D")
+else:
+  print("Fail")
+print("""
+""")
+n2=eval(input("Enter first number:"))
+n3=eval(input("Enter second number:"))
+n4=eval(input("Enter third number:"))
+if n2>n3 and n2>n4:
+  print(n2)
+elif n3>n4 and n3>n2:
+  print(n3)
+else:
+  print(n4)
+print("""
+""")
+user=input("Enter username: ")
+Pass=input("Enter Password: ")
+
+if user == "admin":
+    if Pass == "1234":
+       print("Login Successful")
+    else:
+       print("Login Failed")
+else:
+       print("Invalid user")
+name=int(input("write units: "))
+
+if name<100:
+   print("Low Usage")
+elif name>=100 and name<300:
+   print("Medium Usage")
+elif name>=300:
+    print("High Usage")
+name=eval(input("Enter your age: "))
+if name<=12:
+  print("Child")
+elif name>=13 and name<=19:
+  print("Teenager")
+elif name>=20 and name<=59:
+  print("Adult")
+elif name>60:
+  print("Senior Citizen")
+balance=10000
+if balance > 10000:
+  print("Withdrawl Successful")
+elif balance==10000:
+  print("Account Empty")
+else:
+  print("Insufficient Balance")
+one=eval(input("Enter first number: "))
+two=eval(input("Enter second number: "))
+print(one+two)
+
+
+OUTPUT
+Enter a number:0
+Zero
+
+
+Enter students marks:6
+Fail
+
+
+Enter first number:3
+Enter second number:4
+Enter third number:5
+5
+
+
+Enter password:6
+Enter username: admin
+Enter Password: 1234
+Login Successful
+
+write units: 100
+Medium Usage
+
+Enter your age: 21
+Adult
+
+Account Empty
+
+Enter first number: 3
+Enter second number: 3
+6
+
